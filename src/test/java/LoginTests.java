@@ -10,7 +10,7 @@ public class LoginTests {
     void successfulSearchTest() {
         Configuration.pageLoadStrategy = "eager";
 //        Configuration.browser = "mozilla";
-//        Configuration.browserSize = "1920x1080";
+        Configuration.browserSize = "1920x1080";
 
         open("https://school.qa.guru");
         $("[name=email]").setValue("qagurubot@gmail.com");
