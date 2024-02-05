@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class SearchTests {
 
-    // Добавляю комментарий, чтобы кинуть изменение в git
+    // Добавляю комментарий, чтобы закинуть изменение в git # 4
     @BeforeAll
     static void beforeCondition() {
         Configuration.browserSize = "1920x1080";
@@ -16,6 +16,7 @@ public class SearchTests {
         Configuration.holdBrowserOpen = false;
     }
 
+    // Добавляю комментарий, чтобы закинуть изменение в git # 3
     @Test
     void successfulSearchTest() {
         open("https://www.google.com/");
