@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class SearchTests {
 
-    // Добавляю комментарий, чтобы кинуть изменение в git # 2
+    // Добавляю комментарий, чтобы закинуть изменение в git # 2
     @BeforeAll
     static void beforeCondition() {
         Configuration.browserSize = "1920x1080";
