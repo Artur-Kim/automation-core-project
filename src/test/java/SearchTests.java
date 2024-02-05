@@ -8,12 +8,11 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class SearchTests {
 
-    // Добавляю комментарий, чтобы кинуть изменение в git
     @BeforeAll
     static void beforeCondition() {
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
-        Configuration.holdBrowserOpen = false;
+        Configuration.holdBrowserOpen = true;
     }
 
     @Test
