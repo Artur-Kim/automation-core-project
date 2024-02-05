@@ -15,6 +15,7 @@ public class SearchTests {
         Configuration.holdBrowserOpen = false;
     }
 
+    // Добавляю комментарий, чтобы кинуть изменение в git # 2
     @Test
     void successfulSearchTest() {
         open("https://www.google.com/");
